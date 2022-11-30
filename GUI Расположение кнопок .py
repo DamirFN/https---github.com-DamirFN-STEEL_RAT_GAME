@@ -6,7 +6,7 @@ def on_closing():  # Создаем функцию закрытия прилож
     if messagebox.askokcancel('Выход из игры', 'Хотите выйти из STEEL RAT?'):
         windows.destroy()  # Разрушаем наше приложение
 
-# Настройка окна:
+# Настройка окна: 4
 windows = Tk()  # Создаем переменную и заносим в нее через модуль tk и вызываем у него класс Tk()
 
 windows.protocol("WM_DELETE_WINDOW", on_closing)  # Протокол закрытия с параметром WM_DELETE_WINDOW
